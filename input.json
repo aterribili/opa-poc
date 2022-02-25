@@ -1,12 +1,11 @@
-{"input":
-  {
+{"input": {
     "identity": {
       "expiration": 1645104175,
-      "org": "180s",
+      "org": "some-company",
       "roles": [
         "engineer"
       ],
-      "subject": "abner.terribili@some-email.com"
+      "subject": "abner.terribili@some-company.com"
     },
     "resource": {
       "action": "get",
