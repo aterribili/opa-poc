@@ -1,0 +1,17 @@
+{"input":
+  {
+    "identity": {
+      "expiration": 1645104175,
+      "org": "180s",
+      "roles": [
+        "engineer"
+      ],
+      "subject": "abner.terribili@some-email.com"
+    },
+    "resource": {
+      "action": "get",
+      "path": "/ops/health",
+      "service": "auth"
+    }
+  }
+}

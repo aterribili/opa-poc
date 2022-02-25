@@ -1,0 +1,18 @@
+{
+  "roles": {
+    "engineer": [
+      {
+        "action": "get",
+        "path": "/ops/health",
+        "service": ".*"
+      }
+    ],
+    "npx": [
+      {
+        "action": "get",
+        "path": "/api/pii",
+        "service": "customer"
+      }
+    ]
+  }
+}
